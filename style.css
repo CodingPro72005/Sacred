@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+
+/*this for about section*/
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration:none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li{
+    padding:0 5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255,255,255,.3)
+}
+
+.main-header{
+    background-color: rgba(0,0,0,.6);
+    background-image: url("images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom:30px;
+
+}
+
+.sp{
+
+    font-size: 30px;
+    color:white;
+
+}
+
+.sacred-name{
+    text-align: center;
+    margin: 0;
+    font-size: 6em;
+    font-family: Verdana Bold;
+    color: rgb(2, 131, 66);
+ 
+}
+
+.sacred-name-larger{
+    font-size: 8em;
+}
+
+.content-section{
+    margin:1em;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:0 1.5em; 
+}
+
+.section-header{
+ font-family: "Metal Mania";
+ font-weight:normal;   
+ color: #333;
+ text-align: center;
+ font-size: 3em;
+}
+
+.about-band-image{
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+
+.main-footer{
+    background-color: rgb(224, 127, 0);
+    color: white;
+    padding: .25em 0;
+    margin-top: 150px;
+    
+}
+
+.main-footer-container{
+display: flex ;
+align-items: center;    
+
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align:end ;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+
+}
+
+.footer-nav img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.sacred-footer{
+    font-size: 40px;
+    color:white ;
+    font-family: verdana bold;
+    
+}
+
+/*this for home section*/
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin:.5em 15% 2em 15%;
+    color: white;
+    border:2px solid #2d9cdb;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5;
+    font-weight: lighter;
+    padding-left: 4em;
+    padding-right: 4em;
+
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color:  #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+}
+
+/*this for dhoop product margin */
+.productImage{
+    border-radius: 20px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:250px;
+    
+
+}
+/*this for dhoop products flex*/
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+
+
+/*this for dhoop products flex*/
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.btn-dhoop{
+    margin: 0;
+    margin-left: 50px;
+}
+
+
+.btn-dhoop-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.productImage button{
+    background-color:rgba(255, 145, 0, 0.37);
+
+}
+
+
+
+
+
+
+
